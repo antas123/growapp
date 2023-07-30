@@ -1,0 +1,79 @@
+/* UserProfile.module.css */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto&display=swap');
+
+
+.container {
+    padding: 20px;
+   /* align-items: center; */
+   text-align: center;
+   font-family: 'Roboto', sans-serif;
+  }
+  
+  .user-info {
+    margin-bottom: 20px;
+    flex:1;
+  }
+  
+  .user-info img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    border: 2px solid black;
+  }
+  
+  .view-selector {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-left: 500px;
+  }
+  
+  .view-selector p {
+    margin-right: 10px;
+  }
+  
+  .view-selector input[type='radio'] {
+    margin-right: 5px;
+  }
+  
+  .grid-view {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+  }
+  
+  .grid-view img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .profileui{
+    display: flex;
+    flex-direction: row;
+  }
+  .two{
+    flex:1;
+    text-align: left;
+  }
+
+  .flw{
+    display: flex;
+    flex-direction: row;
+  }
+
+.bt{
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+  
+@media screen and (max-width: 768px)
+{
+  .container{
+    font-size: xx-large;
+    margin-left: -17.5vw;
+  }
+}

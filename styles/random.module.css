@@ -1,0 +1,15 @@
+.container {
+    padding: 20px;
+   text-align: center;
+   position: absolute;
+   z-index: -100;
+   left: 30%;
+   background-color: #EEEDED;
+  }
+ 
+@media screen and (max-width: 980px)
+{
+  .container{
+    margin-left: -17.5vw;
+  }
+}
