@@ -7,6 +7,8 @@
    /* align-items: center; */
    text-align: center;
    font-family: 'Roboto', sans-serif;
+   /* position: absolute; */
+   z-index: -100;
   }
   
   .user-info {
@@ -73,7 +75,8 @@
 @media screen and (max-width: 768px)
 {
   .container{
-    font-size: xx-large;
+    font-size: x-large;
     margin-left: -17.5vw;
+    /* height: 440vw; */
   }
 }

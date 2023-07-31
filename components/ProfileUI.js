@@ -17,7 +17,9 @@ const ProfileUI = ({userId}) => {
     </div>
 
     <div className={styles.two}>
-    <h5 style={{color:"grey"}}>{users?.username}</h5> 
+    <h5 style={{color:"grey"}}>{users?.username}  &nbsp;  &nbsp;
+     {users?.instagram_username && <i class="fa-brands fa-square-instagram" style={{color: '#ff8080'}}></i>} {users?.instagram_username}  &nbsp;  &nbsp;
+     {users?.twitter_username && <i class="fa-brands fa-twitter" style={{color: '#0080ff'}}></i>}{users?.twitter_username}  </h5> 
     <h3 style={{marginTop:"-15px"}} >{users?.name}</h3>
    
     <p>{users?.bio}</p>

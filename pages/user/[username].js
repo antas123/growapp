@@ -59,7 +59,7 @@ const UserProfile = () => {
       </div>
 
       <div className={viewType === 'G' ? styles['grid-view'] : ''}>
-        {viewType === 'L' && <RandomPic pics={data?.photos} type={'profile'} name={'Posts'} />}
+        {viewType === 'L' && <RandomPic pics={data?.photos} type={'profile'}  />}
         {viewType === 'G' && <GridView />}
       </div>
     </div>
