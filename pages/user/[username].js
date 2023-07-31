@@ -7,7 +7,6 @@ import RandomPic from '@/features/randomPic/randomPic';
 import styles from "../../styles/profile.module.css"
 import Layout from '../layout';
 import ProfileUI from '@/components/ProfileUI';
-import PageLoader from 'next/dist/client/page-loader';
 import { useQuery } from 'react-query';
 
 const UserProfile = () => {

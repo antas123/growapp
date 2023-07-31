@@ -11,7 +11,8 @@ const RandomPic = ({ pics, type, name }) => {
 
   return (
     <div className={styles.boss}>
-      <div className={styles.container}>
+      {/* <div className={styles.container}> */}
+      <div className={type === "feed" ? styles.container : styles.container2}>
         <h1 style={{ color: "gray" }}>{name}</h1>
 
         <div className="photo">
