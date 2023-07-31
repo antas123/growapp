@@ -32,13 +32,13 @@ const RandomPic = ({ pics, type, name }) => {
                 )}
 
                 {type === "feed" && (
-                  <div>
+                  <div className={styles.image}>
                     <img
-                      style={{
-                        borderRadius: "5px",
-                        height: "40rem",
-                        width: "30rem",
-                      }}
+                      // style={{
+                      //   borderRadius: "5px",
+                      //   height: "40rem",
+                      //   width: "30rem",
+                      // }}
                       src={data?.urls?.small}
                       alt={data?.alt_description}
                     />
